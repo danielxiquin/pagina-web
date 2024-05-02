@@ -1,0 +1,23 @@
+
+.somos{
+    background-image: url("../img/somos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+}
+
+.quienes{
+    height: 800px;
+}
+
+.quienes p{
+    font-size: 2rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+.quienes h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+    color: rgb(7, 107, 24);
+}

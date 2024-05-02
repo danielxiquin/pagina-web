@@ -1,0 +1,90 @@
+.rojo{
+    background-color: #5F7F61;
+    height: 800px;
+    
+}
+.rojo p{
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+}
+.rojo h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+}
+
+.vino{
+    background-image: url("../img/vision.jpg");
+    background-size: 200%;
+    height: 800px;
+    width: 100%;
+    animation: movimiento 10s infinite linear alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+
+
+.misión{
+    background-image: url("../img/valor\ primordial.jpg");
+    background-size: 200%;
+    height: 800px;
+    width: 100%;
+    animation: movimiento1 10s infinite linear alternate;
+}
+
+@keyframes movimiento1{
+    from{
+        background-position: bottom right;
+    }to{
+        background-position: top left;
+    }
+}
+.verde{
+    background-color: #0D6759;
+    height: 800px;
+}
+
+.verde p{
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+}
+
+.verde h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+}
+
+.lino{
+    background-image: url("../img/mision.jpg");
+    background-size: 200%;
+    height: 800px;
+    width: 100%;
+    animation: movimiento2 10s infinite linear alternate;
+}
+
+@keyframes movimiento2{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+
+.tercer{
+    background-color: #031812;
+    height: 800px;
+}
+
+.tercer p{
+    font-size: 3rem;
+    font-family: 'Sacramento', cursive;
+}
+.tercer h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+}

@@ -1,0 +1,22 @@
+.uno{
+    background-image: url("../img/bachiller.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+}
+
+
+h3{
+    border: 2px solid #D4B946;
+    padding: 35px 35px;
+    color: rgb(255, 251, 251);
+    font-family: 'Black Ops One', cursive;
+    
+}
+
+.btn-a{
+    display: inline-block;
+    border: 12px solid #EB7159;
+    padding: 35px 35px;
+}

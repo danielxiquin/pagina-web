@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f3f3f3;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.lugar{
+	background-color: #0D6759;
+}
+
+.uno{
+  padding: 40px 0;
+}
+
+.uno .titulo{
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 3rem;
+}
+
+.uno .titulo p{
+  color: #999292;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 1.5rem;
+}
+
+.uno form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.uno .barra-busqueda {
+	width: 70%;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	padding: 0 20px;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.uno .categorias{
+  display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.uno .categorias a{
+  color: #9B9B9B;
+	margin: 10px 20px;
+	font-size: 18px;
+	font-weight: 700;
+  text-decoration: none;
+}
+
+.uno .categorias a.activo{
+  color: black;
+
+}
+
+.grid{
+  position: relative;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s linear 0.7s;
+}
+
+.grid.imagenes-cargadas{
+  opacity: 1;
+}
+
+.grid .item{
+  position: absolute;
+	display: block;
+	padding: 0;
+	margin: 10px;
+	width: calc(33.333333% - 20px);
+}
+
+.grid .item-contenido{
+  position: relative;
+}
+
+.grid .item img{
+  width: 100%;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+
+.overlay{
+  position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.9);
+	width: 100%;
+	height: 100vh;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.overlay.activo{
+  display: flex;
+}
+
+.overlay img{
+  max-width: 100%;
+}
+
+.overlay .descripcion{
+  display: block;
+	background: #0D6759;
+	padding: 20px;
+	text-align: center;
+	margin-top: 5px;
+	border-radius: 10px;
+	max-width: 50%;
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+}
+
+.container-img{
+  position: relative;
+}
+
+.overlay #btn-cerrar-popup{
+  background: none;
+	font-size: 20px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: -20px;
+	top: -20px;
+}

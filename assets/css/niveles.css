@@ -1,0 +1,139 @@
+
+.titulo{
+    height: 12vh;
+    align-items: center;
+    justify-content: center;
+    background-color: 
+    #31b39f;;
+}
+.titulo h1{
+    width: calc(100vw - 20px);
+	height: 12vh;
+	font-size: 75px;
+	font-family: 'Press Start 2P', cursive;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(0, 0, 0);
+}
+
+.rojo{
+    background-color: #0D659D;
+    height: 65vh;
+    
+}
+.rojo p{
+    font-size: 1.3rem;
+	font-family: 'Handlee', cursive;
+}
+.rojo h1{
+    font-size: 1.3rem;
+	font-family: 'Monoton', cursive;
+}
+
+.vino {
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/primaria.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+.vino .texto {
+	width: calc(50vw - 20px);
+	height: 65vh;
+	font-size: 50px;
+	font-weight: 100;
+	font-family: 'Press Start 2P', cursive;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #05445E    ;
+	
+}
+
+
+.misión {
+	width: 100%;
+	height: 55vh;
+	background-image: url(../img/basicos.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+.misión .texto {
+	width: calc(50vw - 20px);
+	height: 55vh;
+	font-size: 50px;
+	font-weight: 100;
+	font-family: 'Press Start 2P', cursive;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+
+}
+
+.verde{
+    background-color: 
+    #013A20;
+    height: 55vh;
+}
+
+.verde p{
+    font-size: 1.3rem;
+	font-family: 'Handlee', cursive;
+}
+
+.verde h1{
+	font-family: 'Monoton', cursive;
+}
+.lino {
+	width: 100%;
+	height: 55vh;
+	background-image: url(../img/diversificado.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+.lino .texto {
+	width: calc(50vw - 20px);
+	height: 55vh;
+	font-size: 50px;
+	font-weight: 100;
+	font-family: 'Press Start 2P', cursive;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ff0000;
+	
+}
+
+
+
+
+.tercer{
+    background-color: #1A3315;
+    height: 55vh;
+}
+
+.tercer p{
+    font-size: 1.3rem;
+	font-family: 'Handlee', cursive;
+}
+
+.tercer ul{
+	font-family: 'Monoton', cursive;
+	font-size: 1.5rem;
+}
